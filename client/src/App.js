@@ -5,6 +5,8 @@ import PlayerCard from './Components/PlayerCards';
 import { useFetch } from './Hooks/useFetch';
 import PlayerCardsFunc from './Components/PlayerCardsFunc';
 
+export const sum = (num1,num2) => (num1 + num2)
+
 class App extends React.Component{
   constructor(){
     super()
