@@ -19,6 +19,10 @@
   color: white;
 }
 
+.light-mode-App-header {
+  background-color: black; 
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -30,4 +34,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+img {
+  width:40%;
+  height: auto;
 }
