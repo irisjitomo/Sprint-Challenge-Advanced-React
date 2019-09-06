@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 
+import { sum } from "./App"
+
 it('renders without crashing', () => {
   const div = document.createElement('div');
   ReactDOM.render(<App />, div);
@@ -27,3 +29,9 @@ describe('App', () => {
     expect(h2).toBeInTheDocument();
   })
 })
+
+describe('add', () => {
+  it('adds two numbers', () => {
+    expect(sum(1,2)).toBe(3)
+  });
+});
