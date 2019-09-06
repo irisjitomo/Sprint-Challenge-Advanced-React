@@ -23,9 +23,23 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit the `ANSWERS.md` file to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Why would you use class component over function components (removing hooks from the question)?
+
+    Class Components should still be learned because, while functional components are more favored, class components are still used by many companies
+
 - [ ] Name three lifecycle methods and their purposes.
+
+    Constructor() - sets up initial state in a class component
+    render() - it has to be explicitly written in order for our component to actually render
+    componentDidMount - it sets a new state post render
+
 - [ ] What is the purpose of a custom hook?
+
+    The purpose of a custom hook is to be able to save code. One can make a custom hook when writing forms or a login function. Usually a login form takes 3 inputs: "username"
+    "password", "email". We would have to set up 3 different useStates but with a custom hook, we can write one useState and plud in different values for out username, password, email
+
 - [ ] Why is it important to test our apps?
+
+    It is important to test our apps so that we can know if our app is doing what it is supposed to be doing. Testing a fail in our app is also important because that tells us if our app is functioning correctly or not
 
 ## Project Set Up
 
